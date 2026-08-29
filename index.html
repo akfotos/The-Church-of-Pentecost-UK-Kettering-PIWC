@@ -1,233 +1,426 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>The Church of Pentecost UK Kettering PIWC — God Gives Us Power</title>
-<meta name="description" content="Jesus is holy, loving, and worthy of all our worship and devotion. Join The Church of Pentecost UK Kettering PIWC and praise the Lord Jesus." />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet" />
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-<link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
-
-<!-- ============ HEADER ============ -->
-<header class="site-header" id="siteHeader">
-  <div class="shell header-inner">
-    <a class="logo" href="index.html" aria-label="The Church of Pentecost UK Kettering PIWC">
-      <span class="wordmark-main">Kettering <strong>PIWC</strong></span>
-      <span class="wordmark-sub">The Church of Pentecost UK</span>
-    </a>
-
-    <nav class="site-nav" aria-label="Main">
-      <ul>
-        <li><a class="is-active" href="index.html">Home</a></li>
-        <li><a href="pages.html">About</a></li>
-        <li><a href="sermons.html">Sermons</a></li>
-        <li><a href="ministries.html">Ministries</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
-
-    <div class="header-actions">
-      <a class="btn btn-red btn-sm" href="donate.html">Donate</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </div>
-</header>
-
-<main>
-  <!-- ============ HERO ============ -->
-  <section class="hero">
-    <div class="hero-media" role="img" aria-label="Hands clasped together in prayer over a dark table"></div>
-    <div class="hero-scrim"></div>
-
-    <div class="shell hero-inner">
-      <p class="eyebrow">Foundation <span>|</span> Community <span>|</span> Purpose</p>
-      <h1 class="hero-title">God Gives<br />Us Power</h1>
-      <p class="hero-copy">
-        Jesus is holy, loving, and worthy of all our worship and devotion.
-        You will feel heaven at The Church of Pentecost UK Kettering PIWC. Join us and praise the Lord Jesus.
-      </p>
-      <div class="hero-cta">
-        <a class="btn btn-red" href="contact.html">Plan Your Visit</a>
-        <a class="btn btn-ghost" href="https://www.youtube.com/@KetteringPIWC" target="_blank" rel="noopener noreferrer">
-          <span class="play" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5-11-6.5Z"/></svg>
-          </span>
-          Watch Livestream
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      The Church of Pentecost UK Kettering PIWC — God Gives Us Power
+    </title>
+    <meta
+      name="description"
+      content="Jesus is holy, loving, and worthy of all our worship and devotion. Join The Church of Pentecost UK Kettering PIWC and praise the Lord Jesus."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- ============ HEADER ============ -->
+    <header class="site-header" id="siteHeader">
+      <div class="shell header-inner">
+        <a
+          class="logo"
+          href="index.html"
+          aria-label="The Church of Pentecost UK Kettering PIWC"
+        >
+          <span class="wordmark-main">Kettering <strong>PIWC</strong></span>
+          <span class="wordmark-sub">The Church of Pentecost UK</span>
         </a>
+
+        <nav class="site-nav" aria-label="Main">
+          <ul>
+            <li><a class="is-active" href="index.html">Home</a></li>
+            <li><a href="pages.html">About</a></li>
+            <li><a href="sermons.html">Sermons</a></li>
+            <li><a href="ministries.html">Ministries</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a class="btn btn-red btn-sm" href="donate.html">Donate</a>
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Open menu"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- ============ EVENT CARDS (overlap) ============ -->
-  <section class="events" aria-label="Upcoming events">
-    <div class="shell">
-      <div class="event-viewport">
-      <div class="event-track" id="eventTrack">
-        <article class="event-card">
-          <div class="event-date">
-            <strong>Feb</strong>
-            <span>12</span>
-          </div>
-          <div class="event-body">
-            <p class="event-time">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-              7:00 am
-            </p>
-            <h3>Event: Reflect The Community And Serving</h3>
-          </div>
-          <a class="event-go" href="#" aria-label="Read more about this event">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h13m0 0-5.5-5.5M18 12l-5.5 5.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-        </article>
+    <main>
+      <!-- ============ HERO ============ -->
+      <section class="hero">
+        <div
+          class="hero-media"
+          role="img"
+          aria-label="Hands clasped together in prayer over a dark table"
+        ></div>
+        <div class="hero-scrim"></div>
 
-        <article class="event-card">
-          <div class="event-date">
-            <strong>Jan</strong>
-            <span>3</span>
-          </div>
-          <div class="event-body">
-            <p class="event-time">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-              8:00 am
-            </p>
-            <h3>Our Sponsorship Meetup Will Be Held Again</h3>
-          </div>
-          <a class="event-go" href="#" aria-label="Read more about this event">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h13m0 0-5.5-5.5M18 12l-5.5 5.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-        </article>
-
-        <article class="event-card">
-          <div class="event-date">
-            <strong>Mar</strong>
-            <span>21</span>
-          </div>
-          <div class="event-body">
-            <p class="event-time">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M12 7.5V12l3 2" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-              6:30 pm
-            </p>
-            <h3>Evening Worship Night With The Youth Choir</h3>
-          </div>
-          <a class="event-go" href="#" aria-label="Read more about this event">
-            <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h13m0 0-5.5-5.5M18 12l-5.5 5.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </a>
-        </article>
-      </div>
-      </div>
-
-      <div class="dots" id="eventDots" role="tablist" aria-label="Event slides"></div>
-    </div>
-  </section>
-
-  <!-- ============ ABOUT ============ -->
-  <section class="about">
-    <div class="shell about-grid">
-      <div class="about-visual">
-        <figure class="about-photo">
-          <img
-            src="https://images.unsplash.com/photo-1756239501930-8e74445ca356?auto=format&fit=crop&w=1400&q=80"
-            alt="Interior of a grand cathedral with gold-trimmed arches, pews and a high domed ceiling"
-            loading="lazy" />
-        </figure>
-        <span class="dot-grid" aria-hidden="true"></span>
-      </div>
-
-      <div class="about-text">
-        <p class="eyebrow eyebrow-dark">About Our Community</p>
-        <h2 class="section-title">Building a Greener Future,<br />Grounded in Faith</h2>
-        <p class="lede">
-          Welcome to The Church of Pentecost UK Kettering PIWC — a family of believers learning to love God and love our
-          neighbours well. We gather to worship, to grow in the Word, and to care for the city
-          and the creation entrusted to us.
-        </p>
-
-        <blockquote class="scripture">
-          The name of the Lord is a strong tower; the righteous run into it and are safe.
-          <cite>(Prov. 18:10)</cite>
-        </blockquote>
-
-        <div class="features">
-          <div class="feature">
-            <span class="feature-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none">
-                <path d="M24 4v9M20 8h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                <path d="M8 44V22l16-9 16 9v22" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                <path d="M19 44V32a5 5 0 0 1 10 0v12" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                <path d="M4 44h40" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-              </svg>
-            </span>
-            <div>
-              <h4>Place of Heaven</h4>
-              <p>Doors open wide every week for anyone seeking rest and hope.</p>
-            </div>
-          </div>
-
-          <div class="feature">
-            <span class="feature-icon" aria-hidden="true">
-              <svg viewBox="0 0 48 48" fill="none">
-                <path d="M7 10h13a4 4 0 0 1 4 4v26a4 4 0 0 0-4-4H7V10Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                <path d="M41 10H28a4 4 0 0 0-4 4v26a4 4 0 0 1 4-4h13V10Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-                <path d="M43 34 30 21l3-3 13 13-3 3Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-              </svg>
-            </span>
-            <div>
-              <h4>Study Bible</h4>
-              <p>Small groups digging into Scripture together, verse by verse.</p>
-            </div>
+        <div class="shell hero-inner">
+          <p class="eyebrow">
+            Foundation <span>|</span> Community <span>|</span> Purpose
+          </p>
+          <h1 class="hero-title">God Gives<br />Us Power</h1>
+          <p class="hero-copy">
+            Jesus is holy, loving, and worthy of all our worship and devotion.
+            You will feel heaven at The Church of Pentecost UK Kettering PIWC.
+            Join us and praise the Lord Jesus.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-red" href="contact.html">Plan Your Visit</a>
+            <a
+              class="btn btn-ghost"
+              href="https://www.youtube.com/@KetteringPIWC"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span class="play" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M8 5.5v13l11-6.5-11-6.5Z" />
+                </svg>
+              </span>
+              Watch Livestream
+            </a>
           </div>
         </div>
+      </section>
 
-        <a class="btn btn-red" href="pages.html">Learn More</a>
+      <!-- ============ EVENT CARDS (overlap) ============ -->
+      <section class="events" aria-label="Upcoming events">
+        <div class="shell">
+          <div class="event-viewport">
+            <div class="event-track" id="eventTrack">
+              <article class="event-card">
+                <div class="event-date">
+                  <strong>Feb</strong>
+                  <span>12</span>
+                </div>
+                <div class="event-body">
+                  <p class="event-time">
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="9"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                      />
+                      <path
+                        d="M12 7.5V12l3 2"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                    7:00 am
+                  </p>
+                  <h3>Event: Reflect The Community And Serving</h3>
+                </div>
+                <a
+                  class="event-go"
+                  href="#"
+                  aria-label="Read more about this event"
+                >
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M5 12h13m0 0-5.5-5.5M18 12l-5.5 5.5"
+                      stroke="currentColor"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </article>
+
+              <article class="event-card">
+                <div class="event-date">
+                  <strong>Jan</strong>
+                  <span>3</span>
+                </div>
+                <div class="event-body">
+                  <p class="event-time">
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="9"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                      />
+                      <path
+                        d="M12 7.5V12l3 2"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                    8:00 am
+                  </p>
+                  <h3>Our Sponsorship Meetup Will Be Held Again</h3>
+                </div>
+                <a
+                  class="event-go"
+                  href="#"
+                  aria-label="Read more about this event"
+                >
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M5 12h13m0 0-5.5-5.5M18 12l-5.5 5.5"
+                      stroke="currentColor"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </article>
+
+              <article class="event-card">
+                <div class="event-date">
+                  <strong>Mar</strong>
+                  <span>21</span>
+                </div>
+                <div class="event-body">
+                  <p class="event-time">
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="9"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                      />
+                      <path
+                        d="M12 7.5V12l3 2"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                    6:30 pm
+                  </p>
+                  <h3>Evening Worship Night With The Youth Choir</h3>
+                </div>
+                <a
+                  class="event-go"
+                  href="#"
+                  aria-label="Read more about this event"
+                >
+                  <svg viewBox="0 0 24 24" fill="none">
+                    <path
+                      d="M5 12h13m0 0-5.5-5.5M18 12l-5.5 5.5"
+                      stroke="currentColor"
+                      stroke-width="1.7"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </a>
+              </article>
+            </div>
+          </div>
+
+          <div
+            class="dots"
+            id="eventDots"
+            role="tablist"
+            aria-label="Event slides"
+          ></div>
+        </div>
+      </section>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="about">
+        <div class="shell about-grid">
+          <div class="about-visual">
+            <figure class="about-photo">
+              <img
+                src="https://images.unsplash.com/photo-1756239501930-8e74445ca356?auto=format&fit=crop&w=1400&q=80"
+                alt="Interior of a grand cathedral with gold-trimmed arches, pews and a high domed ceiling"
+                loading="lazy"
+              />
+            </figure>
+            <span class="dot-grid" aria-hidden="true"></span>
+          </div>
+
+          <div class="about-text">
+            <p class="eyebrow eyebrow-dark">About Our Community</p>
+            <h2 class="section-title">
+              Building a Greener Future,<br />Grounded in Faith
+            </h2>
+            <p class="lede">
+              Welcome to The Church of Pentecost UK Kettering PIWC — a family of
+              believers learning to love God and love our neighbours well. We
+              gather to worship, to grow in the Word, and to care for the city
+              and the creation entrusted to us.
+            </p>
+
+            <blockquote class="scripture">
+              The name of the Lord is a strong tower; the righteous run into it
+              and are safe.
+              <cite>(Prov. 18:10)</cite>
+            </blockquote>
+
+            <div class="features">
+              <div class="feature">
+                <span class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 48 48" fill="none">
+                    <path
+                      d="M24 4v9M20 8h8"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                    <path
+                      d="M8 44V22l16-9 16 9v22"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M19 44V32a5 5 0 0 1 10 0v12"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M4 44h40"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </span>
+                <div>
+                  <h4>Place of Heaven</h4>
+                  <p>
+                    Doors open wide every week for anyone seeking rest and hope.
+                  </p>
+                </div>
+              </div>
+
+              <div class="feature">
+                <span class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 48 48" fill="none">
+                    <path
+                      d="M7 10h13a4 4 0 0 1 4 4v26a4 4 0 0 0-4-4H7V10Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M41 10H28a4 4 0 0 0-4 4v26a4 4 0 0 1 4-4h13V10Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M43 34 30 21l3-3 13 13-3 3Z"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </span>
+                <div>
+                  <h4>Study Bible</h4>
+                  <p>
+                    Small groups digging into Scripture together, verse by
+                    verse.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <a class="btn btn-red" href="pages.html">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section instagram-section">
+        <div class="shell">
+          <div class="section-heading">
+            <p class="eyebrow eyebrow-dark">Church Life</p>
+            <h2 class="section-title">See What God Is Doing Among Us</h2>
+            <p>
+              Worship, teaching, and fellowship from the Kettering PIWC
+              community.
+            </p>
+          </div>
+          <div class="instagram-follow">
+            <a
+              class="btn btn-red"
+              href="https://www.instagram.com/ketteringpiwc/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Visit Our Instagram</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TESTIMONIAL ============ -->
+      <section class="testimonial">
+        <div class="testimonial-media" aria-hidden="true"></div>
+        <div class="testimonial-scrim" aria-hidden="true"></div>
+
+        <div class="shell testimonial-inner">
+          <blockquote class="testimonial-quote">
+            &ldquo;Pray! And listen to God! You can do this alone, but find
+            somebody to do it with you&rdquo;
+          </blockquote>
+
+          <p class="testimonial-by">
+            Real Story Cross Journey from
+            <strong>Deconess Sarah Boadu Yeboah</strong>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell">
+        <div class="footer-grid">
+          <div>
+            <h2>Kettering PIWC</h2>
+            <p>
+              A ministry of @thecopuk.<br />Sunday worship: 10:00am–12:30pm.
+            </p>
+          </div>
+          <div>
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="pages.html">About Us</a></li>
+              <li><a href="sermons.html">Sermons</a></li>
+              <li><a href="ministries.html">Ministries</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3>Visit Us</h3>
+            <p>
+              27b Victoria St<br />Kettering, NN16 0BU<br />Sunday,
+              10:00am–12:30pm
+            </p>
+          </div>
+        </div>
+        <p class="footer-bottom">
+          © 2026 The Church of Pentecost UK Kettering PIWC. All rights reserved.
+        </p>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <section class="page-section instagram-section">
-    <div class="shell">
-      <div class="section-heading">
-        <p class="eyebrow eyebrow-dark">Church Life</p>
-        <h2 class="section-title">See What God Is Doing Among Us</h2>
-        <p>Worship, teaching, and fellowship from the Kettering PIWC community.</p>
-      </div>
-      <div class="instagram-follow"><a class="btn btn-red" href="https://www.instagram.com/ketteringpiwc/" target="_blank" rel="noopener noreferrer">Visit Our Instagram</a></div>
-    </div>
-  </section>
-
-  <!-- ============ TESTIMONIAL ============ -->
-  <section class="testimonial">
-    <div class="testimonial-media" aria-hidden="true"></div>
-    <div class="testimonial-scrim" aria-hidden="true"></div>
-
-    <div class="shell testimonial-inner">
-      <blockquote class="testimonial-quote">
-        &ldquo;Pray! And listen to God! You can do this alone, but find somebody to do it with you&rdquo;
-      </blockquote>
-
-      <p class="testimonial-by">Real Story Cross Journey from <strong>Deconess Sarah Boadu Yeboah</strong></p>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="shell">
-    <div class="footer-grid">
-      <div><h2>Kettering PIWC</h2><p>A ministry of @thecopuk.<br />Sunday worship: 10:00am–12:30pm.</p></div>
-      <div><h3>Quick Links</h3><ul><li><a href="pages.html">About Us</a></li><li><a href="sermons.html">Sermons</a></li><li><a href="ministries.html">Ministries</a></li></ul></div>
-      <div><h3>Visit Us</h3><p>27b Victoria St<br />Kettering, NN16 0BU<br />Sunday, 10:00am–12:30pm</p></div>
-    </div>
-    <p class="footer-bottom">© 2026 The Church of Pentecost UK Kettering PIWC. All rights reserved.</p>
-  </div>
-</footer>
-
-<script src="js/main.js" defer></script>
-</body>
+    <script src="js/main.js" defer></script>
+  </body>
 </html>
