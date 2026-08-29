@@ -191,6 +191,7 @@ svg {
   max-width: 220px;
   width: auto;
   height: auto;
+  filter: brightness(0) invert(1);
 }
 .wordmark-main {
   font-family: var(--serif);
