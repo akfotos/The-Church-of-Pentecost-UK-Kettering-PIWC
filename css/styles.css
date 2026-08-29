@@ -180,13 +180,17 @@ svg {
 }
 
 .logo {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 225px;
+  display: block;
   margin-right: auto;
   color: var(--white);
   line-height: 1;
+}
+.logo-img {
+  display: block;
+  max-height: 64px;
+  max-width: 220px;
+  width: auto;
+  height: auto;
 }
 .wordmark-main {
   font-family: var(--serif);
@@ -2063,7 +2067,10 @@ body {
   }
   .logo {
     min-width: 0;
-    flex: 1 1 auto;
+  }
+  .logo-img {
+    max-height: 48px;
+    max-width: 170px;
   }
   .header-actions {
     flex: none;
