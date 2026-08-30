@@ -187,8 +187,8 @@ svg {
 }
 .logo-img {
   display: block;
-  max-height: 64px;
-  max-width: 220px;
+  max-height: 74px;
+  max-width: 260px;
   width: auto;
   height: auto;
   filter: brightness(0) invert(1);
@@ -2070,8 +2070,8 @@ body {
     min-width: 0;
   }
   .logo-img {
-    max-height: 48px;
-    max-width: 170px;
+    max-height: 60px;
+    max-width: 210px;
   }
   .header-actions {
     flex: none;
